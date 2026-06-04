@@ -1,4 +1,4 @@
-# 🥏 Sumo Crumble — Multiplayer
+# Sumo Crumble — Multiplayer
 
 Real-time, top-down ring-out arena. No health — the only way out is the pit. Shove rivals off the crumbling floor, build a streak (you get bigger, hit harder, and your score multiplier climbs), and hunt the crowned leader for double points. Empty slots are filled with bots so the arena is never empty.
 
