@@ -10,26 +10,4 @@ The game is **server-authoritative**: a Node + WebSocket server runs one shared 
 - **Slam** — Shift / Right-click — a radial shockwave
 - Power-ups: charged shove ·  shield ·  speed. Watch for modifier events (low gravity, giants, ice rink, sudden death) and the spinning bar.
 
-## Run it locally
-Requires **Node 18+**.
-
-```bash
-npm install
-npm start
-```
-Then open **http://localhost:3000**. To play with others on the same Wi-Fi, have them open `http://<your-computer-LAN-IP>:3000` (e.g. `http://192.168.1.20:3000`). Open a second browser tab to test multiplayer yourself.
-
-## Put it on GitHub
-```bash
-git init
-git add .
-git commit -m "Sumo Crumble multiplayer"
-git branch -M main
-git remote add origin https://github.com/<you>/sumo-crumble.git
-git push -u origin main
-```
-> GitHub **stores** the code but does not **run** a Node server — you still need a host (below) for people on the internet to play.
-
  
-## Tuning
-Gameplay constants live in the `CFG` object at the top of `server.js` (shove force, streak growth, respawn time, bot count via `TARGET`, tick rate, etc.). Change, restart, done.
